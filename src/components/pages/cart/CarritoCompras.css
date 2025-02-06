@@ -1,0 +1,15 @@
+#carro{
+    height: 40px;
+    width: 40px;
+}
+
+#carritocompra{
+    background-color: rgb(17, 26, 189);
+    border-radius: 100%;
+    font-size: 20px;
+    display: inline-block;
+    width: 40px;
+    aspect-ratio: 2;
+    text-align: center;
+    color: black;
+}

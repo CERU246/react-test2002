@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(130, 46, 46);
+}
+
+nav img {
+    height: 45px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+}
+
+#titulo{
+    font-size: xx-large;
+    color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background: rgba(165, 147, 147, 0.837);
+}
+
