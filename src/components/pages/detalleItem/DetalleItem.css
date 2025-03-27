@@ -1,0 +1,27 @@
+/* DetalleItem.css */  
+.detalle-item {  
+  text-align: center;  
+  margin: 20px;  
+}  
+
+.detalle-item img {  
+  margin-top: 10px;  
+  max-width: 100%;  
+}  
+
+.detalle-item h3 {  
+  margin: 10px 0;  
+}  
+
+.detalle-item button {  
+  background-color: #27ae60;  
+  color: white;  
+  border: none;  
+  padding: 10px 20px;  
+  border-radius: 5px;  
+  cursor: pointer;  
+}  
+
+.detalle-item button:hover {  
+  background-color: #219150;  
+}  

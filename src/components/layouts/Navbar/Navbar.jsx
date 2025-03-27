@@ -1,7 +1,7 @@
-import { CarritoCompras } from "../../pages/cart/CarritoCompras";
 import "./Navbar.css";
 import photo from "../../../assets/images/messi.jpg";
 import { Link } from "react-router";
+import { CartWidget } from "../../common/cartWidget/CartWidget";
 
 export const Navbar = () => {
   // Espacio de Javascript
@@ -33,21 +33,23 @@ export const Navbar = () => {
             <Link to="/products">Home</Link>
           </li>
           <li>
-            <Link to="/category/adulto">Comida para Perro Adulto</Link>
+            <Link to="/category/cachorro">Comida para Perro Cachorro</Link>
           </li>
           <li>
-            <Link to="/category/cachorro">Comida para Perro Adulto</Link>
+            <Link to="/category/adulto">Comida para Perro Adulto</Link>
           </li>
           <li>
             <Link to="/Users">Contact Us:</Link>
           </li>
           <li>
-            <Link to="/Comments">About Us:</Link>
+            <Link to="/Comments">About Us:</Link> 
           </li>
         </ul>
       </div>
 
-      <CarritoCompras />
+      <Link to="/carrito">
+        <CartWidget />
+      </Link> 
     </nav>
   );
 };
